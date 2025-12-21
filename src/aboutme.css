@@ -1,0 +1,101 @@
+.aboutme, .aboutme-short{
+    background: var(--bg-main);
+    margin: 0;
+    min-height: 80vh;
+}
+.aboutme-container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 75%;
+    gap: 5%;
+    /* background: var(--bg-section); */
+}
+.aboutme-title{
+    font-size: 2.2rem;
+    color: var(--title);
+}
+.aboutme-text p{
+    font-size: 1.2rem;
+    text-align: justify;
+    color: var(--text-muted);
+}
+.tech-stack-list{
+    color: var(--title);
+}
+.aboutme-img{
+    margin: 3vh auto;
+}
+.aboutme-img img{
+   width: 100%;
+} 
+.aboutme-short-container{
+    margin: auto;
+    width: 75%;
+    /* padding: 5%; */
+}
+.aboutme-short-text, .aboutme-short-cta, .aboutme-short-connect{
+    width: 60%;
+    font-size: 1.6rem;
+    text-align: justify;
+    color: var(--text-main);
+}
+.aboutme-short-intro{
+    font-size: 2.5rem;
+    text-align: justify;
+    color: var(--accent);
+}
+.aboutme-short-name, .aboutme-short-tag{
+    padding-left: 5%;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--title);
+}
+.aboutme-short-tag{
+    padding-left: 10%;
+    font-size: 2.7rem;
+    color: var(--bg-header);
+}
+.cta-buttons{
+    /* margin-top: 5vh; */
+    display: flex;
+    gap: 2vw;
+}
+.tellmemore-button{
+    padding: 1vh 2vh;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: var(--accent2);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.tellmemore-button:hover{
+    background: var(--accent2-darker);
+}
+.tellmemore-button:nth-child(2){
+    background: var(--accent);
+}.tellmemore-button:nth-child(2):hover{
+    background: var(--accent-darker);
+}
+
+.aboutme-short-connect{
+    margin-top: 8vh;
+    
+}
+.social-links{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 3vw;
+}
+.social-links img{
+    max-height: 80px;
+    min-height: 40px;
+}
+.social-links img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
