@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   padding: 1rem;
+  background: var(--bg-main);
 }
 
 /* Form card */
@@ -37,6 +38,8 @@
 .form-group label {
   margin-bottom: 0.4rem;
   font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-main)
 }
 
 /* Inputs & textarea */
@@ -72,7 +75,7 @@
 
 /* Button hover */
 .contact-form button:hover {
-  opacity: 0.9;
+  background: var(--accent);
 }
 
 /* Status message */

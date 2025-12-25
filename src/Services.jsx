@@ -24,7 +24,7 @@ export default function Services(){
                             <p>Professional branding</p>
                         </div>
                     </div>
-                    <div className="card" src="">
+                    <div className="card">
                         {/* <img className="card-logo"src="src/assets/website-optimization-window-cog-svgrepo-com.svg"/> */}
                         <div className="card-title">Custom Web Apps</div>
                         <div className="card-text">Tailored web applications built around your specific needs — dashboards, internal tools, or startup products.</div>

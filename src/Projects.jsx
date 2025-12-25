@@ -8,7 +8,7 @@ export default function Projects(){
                     <div className="card">
                         <p className="card-title">Foto-Foto Photobooth</p>
                         <div className="project-preview">
-                            <img src=""></img>
+                            <img src={null}></img>
                         </div>
                         <p className="card-text">Interactive Online Photobooth</p>
                         <a className="project-link" href="https://dmont1735.github.io/foto-foto-photobooth/">View Project</a>
@@ -16,7 +16,7 @@ export default function Projects(){
                     <div className="card">
                         <p className="card-title">Jumpy Road</p>
                         <div className="project-preview">
-                            <img src=""></img>
+                            <img src={null}></img>
                         </div>
                         <p className="card-text">2D Vertical Infinite Scroller Jumping Game made in Godot</p>
                         <a className="project-link" href="">View Project</a>
@@ -24,7 +24,7 @@ export default function Projects(){
                     <div className="card">
                         <p className="card-title">Soaring Cow</p>
                         <div className="project-preview">
-                            <img src=""></img>
+                            <img src={null}></img>
                         </div>
                         <p className="card-text">2D Vertical Infinite Scroller Flapping Game made in Godot</p>
                         <a className="project-link" href="">View Project</a>
@@ -32,7 +32,7 @@ export default function Projects(){
                     <div className="card">
                         <p className="card-title">Exponentia</p>
                         <div className="project-preview">
-                            <img src=""></img>
+                            <img src={null}></img>
                         </div>
                         <p className="card-text">2D Tile-Combining Game made in Godot</p>
                         <a className="project-link" href="">View Project</a>

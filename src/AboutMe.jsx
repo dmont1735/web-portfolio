@@ -1,4 +1,7 @@
 import "./aboutme.css"
+import DMlogo from "/src/assets/logos/DM/logo-color.svg";
+import GitHubLogoDark from "/src/assets/logos/github/github-icon-dark.svg";
+import LinkedInlogo from "/src/assets/logos/linkedin/linkedin-icon.svg";
 
 export function AboutMe(){
     return (
@@ -48,9 +51,9 @@ export function AboutMeShort(){
                 <div>
                     <p className="aboutme-short-connect">Connect with me:</p>
                         <div className="social-links">
-                            <a href="/" target="_blank"><img src="src/assets/logo-color.svg" alt="Daniel Monteiro Portfolio Logo"/></a>
-                            <a href="https://www.linkedin.com/in/danielarmonteiro/" target="_blank"><img src="src/assets/linkedin-icon.svg" alt="LinkedIn Logo"/></a>
-                            <a href="https://github.com/dmont1735" target="_blank"><img src="src/assets/github-icon.svg" alt="GitHub Logo"/></a>
+                            <a href="https://www.danielmonteiro.dev" target="_blank"><img src={DMlogo} alt="Daniel Monteiro Portfolio Logo"/></a>
+                            <a href="https://www.linkedin.com/in/danielarmonteiro/" target="_blank"><img src={LinkedInlogo} alt="LinkedIn Logo"/></a>
+                            <a href="https://github.com/dmont1735" target="_blank"><img src={GitHubLogoDark} alt="GitHub Logo"/></a>
                         </div>
                 </div>
             </div>

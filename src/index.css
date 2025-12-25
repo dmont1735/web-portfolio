@@ -3,32 +3,33 @@
   --accent-darker: #007a7fff;
   --accent2: #11b196ff;
   --accent2-darker: #0b816eff;
-  --bg-main: #ffffff;
+  --bg-main: #edf9fc;
   --bg-card: #ecfff8;
   --bg-section: #92c2be;
-  --bg-header: #335765;
+  --bg-header:#032a4e;
   --title: #5c3f2f;
   --text-main: #000000ff;
   --text-alt: #ffffffff;
+  --text-header:rgb(209, 250, 255);
 }
 
-.theme-dark{
-  :root {
-    --accent2: #0083daff;
-    --accent2-darker: #005994ff;
-    --accent: #00ccaaff;
-    --accent-darker: #029980ff;
-    --bg-main: #121212ff;
-    --bg-card: #1e3d5a;
-    --bg-section: #e7e7e717;
-    --bg-header: #333333ff;
-    --title: #a3f1ff;
-    --text-main: #b6c5c9ff;
-    --text-alt: #ffffff;
-  }
+body.dark-mode{
+  --accent: #009da8ff;
+  --accent-darker: #007a7fff;
+  --accent2: #11b196ff;
+  --accent2-darker: #0b816eff;
+  --bg-main: #061122;
+  --bg-card: #0b172e;
+  --bg-section: #03304e;
+  --bg-header:#71bcee;
+  --title: #d6f2ff;
+  --text-main: #f2f2f2;
+  --text-alt: #222222ff;
+  --text-header:#00162a;
+
 }
 
-html, body, #root {
+html, body, .content, #root {
   height: 100%;
   margin: 0;
   background: var(--bg-main);
@@ -46,6 +47,43 @@ html, body, #root {
   align-items: center;
   padding: 3vh 10% 3vh 10%;
 }
+
+.navbar a, .dark-theme-button {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--text-header);
+  text-decoration: none;
+  transition: all .3s ease;
+}
+.nav-links{
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+.nav-links :hover{
+  color: var(--accent);
+}
+.dark-theme-button{
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  padding: 0.5vh 1vw;
+  border-radius: 20px;
+  cursor: pointer;
+  background: var(--text-header);
+  color: var(--accent);
+  border: none;
+  transition: all .3s ease;
+}
+.dark-theme-button:hover{
+  background: var(--accent);
+  color: var(--bg-button-option);
+  transition: all .3s ease;
+}
+.dark-theme-button img{
+  height: 3vh;
+}
+
 .logo{
   display: flex;
   align-items: center;
@@ -54,34 +92,19 @@ html, body, #root {
   height: 4vh;
 }
 
-.navbar a {
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: var(--text-main);
-  text-decoration: none;
-  transition: all .3s ease;
-}
-.nav-links{
-  display: flex;
-  gap: 1vw;
-}
-.nav-links :hover{
-  color: var(--accent2);
-}
-
 footer{
   text-align: center;
   justify-content: center;
   padding-top: 2vh;
   padding-bottom: 2vh;
   background-color: var(--bg-header);
+  color: var(--text-header);
 }
 footer .social-links{
   margin: 2vh auto 3vh auto;
   /* padding: 3%; */
   gap: 5vw;
 }
-
 
 section{
   margin: 5vh 0 5vh 0;
