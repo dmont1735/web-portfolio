@@ -57,6 +57,14 @@
     font-size: 2.7rem;
     color: var(--bg-header);
 }
+.aboutme-short .tech-stack{
+    justify-content: start;
+    padding-bottom: 3vh;
+}
+.aboutme-short .tech-icon{
+    height: 2.2rem;
+
+}
 .cta-buttons{
     /* margin-top: 5vh; */
     display: flex;
