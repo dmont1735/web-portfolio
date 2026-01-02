@@ -45,13 +45,12 @@ export function AboutMeShort(){
                 <p className="aboutme-short-name">Daniel Monteiro</p>
                 <p className="aboutme-short-tag">Software Engineer</p>
                 <p className="aboutme-short-text">
-                    I'm a Software Engineer focused on building thoughtful, interactive web experiences.
+                    I'm a Software Engineer based in Portugal, focused on building thoughtful, interactive web experiences.
                     I enjoy working at the intersection of design and engineering, turning ideas into performant, user-facing applications.
                 </p>
-
                 <div className="aboutme-short-cta">
                     <p>This site is a space where I experiment, learn, and share the projects I build along the way.
-                        If you're curious about how I work or what I've been building, feel free to take a look.
+                        If you're curious about how I work or what I've been building, you're in the right place.
                     </p>
                     <div className="tech-stack">
                         <img className="tech-icon" alt="React Logo" src={reactLogo}/>

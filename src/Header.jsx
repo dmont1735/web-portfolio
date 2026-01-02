@@ -19,10 +19,10 @@ export default function Header({isDarkMode, onDarkMode}){
             <nav className="navbar">
                 <div className="nav-links">
                     <a href="/">Home</a>
-                    <a href="/">About Me</a>
+                    <a href="#aboutme">About Me</a>
                     <a href="/">Services</a>
-                    <a href="/">Projects</a>
-                    <a href="/">Contact</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </nav>
             <button className="dark-theme-button" onClick={handleChangeDarkMode}>{isDarkMode? "Light Mode":"Dark Mode"}<img src={modeLogo}></img></button>

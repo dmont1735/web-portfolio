@@ -24,8 +24,8 @@ function App() {
         <Workflow/>
         <Services/>
         <Pricing/>
-      </div>
       <ContactForm/>
+      </div>
       <Footer isDarkMode={darkMode}/>
     </div>
   )

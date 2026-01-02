@@ -7,7 +7,7 @@ import html5Logo from "/src/assets/logos/tech-stack/HTML5.svg";
 
 export default function Projects(){
     return (
-        <section className="projects">
+        <section className="projects" id="projects">
             <div className="section-container">
                 <h1 className="section-title">Featured Work</h1>
                 {/* <p className="section-intro">Solo Projects</p> */}
